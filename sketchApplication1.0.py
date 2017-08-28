@@ -24,7 +24,7 @@
                 New / Open / Save / Save_As
                 -----
                 These may not be necessary for this program since it is primarily intended as a whiteboard for my
-                Surface.  In doing these I would have to add functionality to modify canvas size, dictact canvas size
+                Surface.  In doing these I would have to add functionality to modify canvas size, dictate canvas size
                 rule (i.e. pixels, cm, inches.) and then add in functionality to zoom in/out on the canvas as well as
                 add scroll bars.  This may be unnecessary for this type of program in its current form.
 
@@ -78,6 +78,9 @@ class Paint(object):
     # redo_stack = []
 
     def __init__(self):
+
+        # ***** Layout ***** #
+
         self.root = Tk()
         self.root.title(string='Whiteboard')
 
